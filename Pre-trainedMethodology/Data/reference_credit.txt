@@ -1,0 +1,7 @@
+Emotion Data Set:
+- CARER: Contextualized Affect Representations for Emotion Recognition (Saravia et al., EMNLP 2018)
+- Dataset: https://huggingface.co/datasets/dair-ai/emotion/viewer/unsplit?views%5B%5D=unsplit
+Stress Dataset:
+- StressScan - Human Stress Detection with NLP
+- Dataset: https://www.kaggle.com/code/nasruddinaz/stressscan-human-stress-detection-with-nlp/input
+
