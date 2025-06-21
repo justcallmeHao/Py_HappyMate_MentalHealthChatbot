@@ -1,16 +1,19 @@
 # EmotionAnalyserTraining.py
+from trainer_interface import AnalyserTrainer
+#For Training model
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import numpy as np
+# For NLP and preprocessing
 from torch.utils.data import Dataset, DataLoader, random_split
 from sentence_transformers import SentenceTransformer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_class_weight
+from sklearn.model_selection import train_test_split
+# For pipeline & download data from external source
 import joblib
 import os
-import numpy as np
-from trainer_interface import AnalyserTrainer
-from sklearn.model_selection import train_test_split
 from datasets import load_dataset
 
 # ----------------------------
