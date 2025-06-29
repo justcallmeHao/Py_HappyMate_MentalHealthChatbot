@@ -1,0 +1,7 @@
+torch
+datasets
+scikit-learn
+joblib
+# Recommend to have CUDA + PyTorch CUDA version12.8
+pandas
+sentence-transformers
