@@ -61,7 +61,7 @@ def test_mentality_model():
             break
 def main():
     trainers = [
-        ("Models/emotion.pt", EmotionAnalyserTrainer()),
+        #("Models/emotion.pt", EmotionAnalyserTrainer()),
         # ("Models/habit.pt", HabitAnalyserTrainer()),
         # ("Models/health.pt", HealthAnalyserTrainer()),
         # ("Models/leisure.pt", LeisureAnalyserTrainer()),
@@ -75,6 +75,6 @@ def main():
         print(f"🔁 Training {path} finished.")
 
 if __name__ == "__main__":
-    main()
+    #main()
     #test_emotion_model()
-    #test_mentality_model()
+    test_mentality_model()

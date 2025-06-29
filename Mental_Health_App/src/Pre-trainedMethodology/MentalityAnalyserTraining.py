@@ -44,7 +44,7 @@ class MentalityAnalyserTrainer(AnalyserTrainer):
 
     def load_data(self):
         # Load local CSV file (adjust the path if needed)
-        df = pd.read_csv("Data/mental_health.csv")  # <- your downloaded file
+        df = pd.read_csv("Data/mental_health.csv")  # Downloaded file
         # Optionally convert numeric labels to string labels
         label_map = {0: "no_stress", 1: "stress"}
         # Format the data into a list of dictionaries
