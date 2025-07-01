@@ -1,4 +1,4 @@
-# MentalityAnalyserTraining.py
+# mentality_training.py
 from trainer_interface import AnalyserTrainer
 #For Training model
 import torch
@@ -44,7 +44,7 @@ class MentalityAnalyserTrainer(AnalyserTrainer):
 
     def load_data(self):
         # Load local CSV file (adjust the path if needed)
-        df = pd.read_csv("Data/mental_health.csv")  # Downloaded file
+        df = pd.read_csv("data/mental_health.csv")  # Downloaded file
         # Optionally convert numeric labels to string labels
         label_map = {0: "no_stress", 1: "stress"}
         # Format the data into a list of dictionaries
@@ -61,9 +61,9 @@ class MentalityAnalyserTrainer(AnalyserTrainer):
         self.y = self.label_encoder.fit_transform(labels)
 
         # Save tools
-        os.makedirs("Models", exist_ok=True)
-        joblib.dump(self.encoder, "Models/mentality_encoder.pkl")
-        joblib.dump(self.label_encoder, "Models/mentality_labels.pkl")
+        os.makedirs("models", exist_ok=True)
+        joblib.dump(self.encoder, "models/mentality_encoder.pkl")
+        joblib.dump(self.label_encoder, "models/mentality_labels.pkl")
 
     def split_data(self):
         # First split: 80% train, 20% validate + test

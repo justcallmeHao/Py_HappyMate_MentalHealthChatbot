@@ -58,6 +58,9 @@
   &quot;keyToString&quot;: {
     &quot;Python.EmotionAnalyserTraining.executor&quot;: &quot;Run&quot;,
     &quot;Python.MentalityAnalyserTraining.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat_use.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatbot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.train_all.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -70,7 +73,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/haovo/Desktop/Py_C-_HappyMate_MentalHealthChatbot&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/haovo/Desktop/Py_C-_HappyMate_MentalHealthChatbot/Mental_Health_App/src/RecordBook&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -81,8 +84,12 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haovo\Desktop\Py_C-_HappyMate_MentalHealthChatbot\Mental_Health_App\src\RecordBook" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\haovo\Desktop\Py_C-_HappyMate_MentalHealthChatbot\Mental_Health_App\src" />
+      <recent name="C:\Users\haovo\Desktop\Py_C-_HappyMate_MentalHealthChatbot\Mental_Health_App\src\Utils" />
       <recent name="C:\Users\haovo\Desktop\Py_C-_HappyMate_MentalHealthChatbot\Mental_Health_App" />
       <recent name="C:\Users\haovo\GitHub\Py_C++_HappyMate_MentalHealthChatbot\Pre-trainedMethodology\Data" />
     </key>
@@ -113,7 +120,9 @@
       <workItem from="1750471894764" duration="1007000" />
       <workItem from="1751193473473" duration="4398000" />
       <workItem from="1751200196092" duration="7158000" />
-      <workItem from="1751281711750" duration="194000" />
+      <workItem from="1751281711750" duration="10967000" />
+      <workItem from="1751332278780" duration="123000" />
+      <workItem from="1751365973772" duration="3000" />
     </task>
     <servers />
   </component>
@@ -121,10 +130,13 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1751297510663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src" />
     <SUITE FILE_PATH="coverage/Py_C___HappyMate_MentalHealthChatbot$EmotionAnalyserTraining.coverage" NAME="EmotionAnalyserTraining Coverage Results" MODIFIED="1750061135829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre-trainedMethodology" />
     <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$EmotionAnalyserTraining.coverage" NAME="EmotionAnalyserTraining Coverage Results" MODIFIED="1751198428979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/Pre-trainedMethodology" />
+    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$chat_use.coverage" NAME="chat_use Coverage Results" MODIFIED="1751286387197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/utils" />
     <SUITE FILE_PATH="coverage/Py_C___HappyMate_MentalHealthChatbot$train_all.coverage" NAME="train_all Coverage Results" MODIFIED="1750459108455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre-trainedMethodology" />
     <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$train_all.coverage" NAME="train_all Coverage Results" MODIFIED="1751208755520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/Pre-trainedMethodology" />
+    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1751296874795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src" />
     <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$MentalityAnalyserTraining.coverage" NAME="MentalityAnalyserTraining Coverage Results" MODIFIED="1751206603053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/Pre-trainedMethodology" />
   </component>
 </project>

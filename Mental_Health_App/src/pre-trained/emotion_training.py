@@ -1,4 +1,4 @@
-# EmotionAnalyserTraining.py
+# emotion_training.py
 from trainer_interface import AnalyserTrainer
 #For Training model
 import torch
@@ -58,9 +58,9 @@ class EmotionAnalyserTrainer(AnalyserTrainer):
         self.y = self.label_encoder.fit_transform(labels)
 
         # Save tools
-        os.makedirs("Models", exist_ok=True)
-        joblib.dump(self.encoder, "Models/emotion_encoder.pkl")
-        joblib.dump(self.label_encoder, "Models/emotion_labels.pkl")
+        os.makedirs("models", exist_ok=True)
+        joblib.dump(self.encoder, "models/emotion_encoder.pkl")
+        joblib.dump(self.label_encoder, "models/emotion_labels.pkl")
 
     def split_data(self):
         # First split: 80% train, 20% validate + test

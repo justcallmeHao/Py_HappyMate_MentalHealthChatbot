@@ -3,7 +3,7 @@ import joblib
 from sentence_transformers import SentenceTransformer
 
 from EmotionAnalyserTraining import EmotionAnalyserTrainer
-from MentalityAnalyserTraining import MentalityAnalyserTrainer
+from mentality_training import MentalityAnalyserTrainer
 
 def test_emotion_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -11,11 +11,11 @@ def test_emotion_model():
     print("\n🧪 Running test on Emotion model...")
 
     # Load model and preprocessing tools
-    model = torch.jit.load("Models/emotion.pt", map_location=device)
+    model = torch.jit.load("models/emotion.pt", map_location=device)
     model.eval()
 
     encoder = SentenceTransformer("all-MiniLM-L12-v2")
-    label_encoder = joblib.load("Models/emotion_labels.pkl")
+    label_encoder = joblib.load("models/emotion_labels.pkl")
 
     while True:
         test_input = input("Enter a sentence: ")
@@ -39,11 +39,11 @@ def test_mentality_model():
     print("\n🧪 Running test on Mentality model...")
 
     # Load model and preprocessing tools
-    model = torch.jit.load("Models/mentality.pt", map_location=device)
+    model = torch.jit.load("models/mentality.pt", map_location=device)
     model.eval()
 
     encoder = SentenceTransformer("all-MiniLM-L12-v2")
-    label_encoder = joblib.load("Models/mentality_labels.pkl")
+    label_encoder = joblib.load("models/mentality_labels.pkl")
 
     while True:
         test_input = input("Enter a sentence: ")
@@ -61,12 +61,12 @@ def test_mentality_model():
             break
 def main():
     trainers = [
-        #("Models/emotion.pt", EmotionAnalyserTrainer()),
-        # ("Models/habit.pt", HabitAnalyserTrainer()),
-        # ("Models/health.pt", HealthAnalyserTrainer()),
-        # ("Models/leisure.pt", LeisureAnalyserTrainer()),
-        ("Models/mentality.pt", MentalityAnalyserTrainer())
-        # ("Models/productivity.pt", ProductivityAnalyserTrainer())
+        #("models/emotion.pt", EmotionAnalyserTrainer()),
+        # ("models/habit.pt", HabitAnalyserTrainer()),
+        # ("models/health.pt", HealthAnalyserTrainer()),
+        # ("models/leisure.pt", LeisureAnalyserTrainer()),
+        ("models/mentality.pt", MentalityAnalyserTrainer())
+        # ("models/productivity.pt", ProductivityAnalyserTrainer())
     ]
 
     for path, trainer in trainers:
