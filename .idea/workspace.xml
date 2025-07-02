@@ -123,6 +123,7 @@
       <workItem from="1751281711750" duration="10967000" />
       <workItem from="1751332278780" duration="123000" />
       <workItem from="1751365973772" duration="3000" />
+      <workItem from="1751365988367" duration="5626000" />
     </task>
     <servers />
   </component>
@@ -130,13 +131,13 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1751297510663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src" />
+    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1751367656463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src" />
     <SUITE FILE_PATH="coverage/Py_C___HappyMate_MentalHealthChatbot$EmotionAnalyserTraining.coverage" NAME="EmotionAnalyserTraining Coverage Results" MODIFIED="1750061135829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre-trainedMethodology" />
     <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$EmotionAnalyserTraining.coverage" NAME="EmotionAnalyserTraining Coverage Results" MODIFIED="1751198428979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/Pre-trainedMethodology" />
     <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$chat_use.coverage" NAME="chat_use Coverage Results" MODIFIED="1751286387197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/utils" />
     <SUITE FILE_PATH="coverage/Py_C___HappyMate_MentalHealthChatbot$train_all.coverage" NAME="train_all Coverage Results" MODIFIED="1750459108455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre-trainedMethodology" />
-    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$train_all.coverage" NAME="train_all Coverage Results" MODIFIED="1751208755520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/Pre-trainedMethodology" />
-    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1751296874795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src" />
+    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1751366678003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src" />
+    <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$train_all.coverage" NAME="train_all Coverage Results" MODIFIED="1751377511971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/pre-trained" />
     <SUITE FILE_PATH="coverage/Py_C__HappyMate_MentalHealthChatbot$MentalityAnalyserTraining.coverage" NAME="MentalityAnalyserTraining Coverage Results" MODIFIED="1751206603053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mental_Health_App/src/Pre-trainedMethodology" />
   </component>
 </project>

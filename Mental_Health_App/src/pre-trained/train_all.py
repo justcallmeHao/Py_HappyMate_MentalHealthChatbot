@@ -2,7 +2,7 @@ import torch
 import joblib
 from sentence_transformers import SentenceTransformer
 
-from EmotionAnalyserTraining import EmotionAnalyserTrainer
+from emotion_training import EmotionAnalyserTrainer
 from mentality_training import MentalityAnalyserTrainer
 
 def test_emotion_model():
@@ -61,7 +61,7 @@ def test_mentality_model():
             break
 def main():
     trainers = [
-        #("models/emotion.pt", EmotionAnalyserTrainer()),
+        ("models/emotion.pt", EmotionAnalyserTrainer()),
         # ("models/habit.pt", HabitAnalyserTrainer()),
         # ("models/health.pt", HealthAnalyserTrainer()),
         # ("models/leisure.pt", LeisureAnalyserTrainer()),
@@ -75,6 +75,6 @@ def main():
         print(f"🔁 Training {path} finished.")
 
 if __name__ == "__main__":
-    #main()
+    main()
     #test_emotion_model()
-    test_mentality_model()
+    #test_mentality_model()
